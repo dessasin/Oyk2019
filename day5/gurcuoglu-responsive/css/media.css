@@ -1,0 +1,80 @@
+@media (max-width: 1020px) {
+    .site {
+        width: 768px;
+    }
+    .menu ul {
+        display: none;
+    }
+    a.hamburger {
+        display: block;
+        padding-top: 90px;
+    }
+    .logolar .item {
+        width: 240px;
+        height: 80px;
+    }
+    .hakkinda {
+        width: 420px;
+        height: auto;
+    }
+    .logo {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .site {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .logolar .item {
+        width: 190px;
+        height: 60px;
+    }
+    .logo {
+        width: 20%;
+    }
+    .hakkinda {
+        width: 320px;
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .site {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .logolar .item {
+        width: 190px;
+        height: 60px;
+    }
+    .logo {
+        width: 20%;
+    }
+    .hakkinda {
+        width: 320px;
+        height: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .site {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .logolar .item {
+        width: 190px;
+        height: 60px;
+    }
+    .logo {
+        width: 20%;
+    }
+    .hakkinda {
+        width: 320px;
+        height: auto;
+    }
+}
