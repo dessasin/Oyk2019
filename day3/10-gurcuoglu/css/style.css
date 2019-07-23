@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+.site {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ust {
+}
+
+.logo {
+  float: left;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.menu {
+  float: right;
+}
+
+.menu ul li {
+  float: left;
+}
+
+.menu ul li a {
+  display: inline-block;
+  padding: 90px 10px 10px 10px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  background-color: lightblue;
+}
+
+.menu ul li.aktif a {
+  background-color: blue;
+  color: white;
+}
+
+.banner {
+  margin-top: 25px;
+}
+
+.logolar {
+  margin-top: 30px;
+}
+
+.logolar .item {
+  width: 320px;
+  height: 120px;
+  float: left;
+  margin-left: 20px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+  text-align: center;
+}
+
+.logolar .item:first-of-type {
+  margin-left: 0;
+}
+
+.logolar .item span {
+  width: inherit;
+  height: inherit;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.haberler {
+  width: 320px;
+  float: left;
+  margin-top: 30px;
+}
+
+.haberler div.baslik {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.haberler .item {
+  margin-top: 10px;
+}
+
+.haberler .item img {
+  width: 100px;
+  float: left;
+}
+
+.haberler .item .yazi {
+  width: 210px;
+  float: left;
+  margin-left: 10px;
+}
+
+.haberler .item .yazi p.baslik {
+  font-size: 13px;
+}
+
+.haberler .item .yazi p.aciklama {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+
+.haberler .item .yazi p.tarih {
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.hakkinda {
+  width: 660px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.hakkinda .baslik {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hakkinda p {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.alt {
+  padding: 15px 20px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+}

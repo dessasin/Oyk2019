@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tahoma";
+    font-size: 16px;
+    background-image: url("../img/body.png");
+    background-repeat: repeat-x;
+}
+
+.clear {
+    clear: both;
+}
+
+.site {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    margin-bottom: 20px;
+}
+
+.head .logo {
+    float: left;
+    margin-top: 40px;
+}
+
+.head .sag {
+    margin-top: 40px;
+    float: right;
+}
+
+.head .sag .telpic {
+    float: left;
+    margin-right: 5px;
+}
+
+.head .sag .number {
+    float: right;
+}
+
+.head .sag .number p {
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.head .sag .flags img {
+    margin-top: 20px;
+    margin-left: 5px;
+    float: right;
+}
+
+.content .navbar {
+    padding: 3px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.content .navbar ul li {
+    float: left;
+    padding: 7px;
+    border-right: 2px solid black;
+}
+
+.content .landpic {
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+
+.content .lorem p {
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 5 0 5;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: tahoma;
+}
+
+.site {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ust {
+    border-bottom: 1px solid aqua;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.ust .logo {
+    float: left;
+}
+
+.ust .menu {
+    float: right;
+    margin-top: 40px;
+}
+
+.ust .menu ul li {
+    width: 100px;
+    list-style: none;
+    font-weight: bold;
+    float: left;
+}
+
+.ust .menu ul li.active a {
+    color: white;
+    display: inline-block;
+    background-color: lightblue;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.ust .menu ul li a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.orta .baslik p {
+    background-color: turquoise;
+    color: white;
+    text-align: center;
+}
+
+.orta .slide img {
+    border: 1px solid lightgray;
+    margin-left: 40px;
+}
+
+.orta .baslik2 p {
+    background-color: turquoise;
+    color: white;
+    text-align: center;
+}
+
+.alt .solicerik .sagicerik p {
+    width: 100px;
+}
+
+.alt .solicerik {
+    float: left;
+}
+
+.alt .sagicerik {
+    float: right;
+}
+
+.alt .solicerik .simage {
+    float: left;
+}
+
+.alt .sagicerik .saimage {
+    float: left;
+}

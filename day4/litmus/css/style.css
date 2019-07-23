@@ -1,0 +1,144 @@
+.clear {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site {
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-top: 50px;
+    float: left;
+}
+
+.minlist {
+    float: right;
+}
+
+.minlist ul li {
+    margin-top: 50px;
+    float: left;
+    padding-left: 5px;
+    padding-top: 2px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    list-style-type: disc;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+.navbar {
+    float: right;
+    margin-top: 2px;
+}
+
+.navbar ul li {
+    float: left;
+    height: 35px;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    background-color: #0074c8;
+}
+
+.banner {
+    margin-top: 20px;
+    border: 1px solid lightgray;
+}
+
+.banner img {
+    padding: 2px;
+}
+
+.content .text {
+    float: left;
+    width: 60%;
+    padding: 30px 10px 0px 0px;
+}
+
+.content .text p {
+    font-family: Arial;
+    font-weight: 10px;
+    text-align: start;
+    padding-bottom: 20px;
+    color: rgb(102, 99, 99);
+}
+
+.currency {
+    float: left;
+    margin-top: 30px;
+    padding-left: 40px;
+    border-left: 1px solid gray;
+}
+
+.head p {
+    float: left;
+    font-size: 15px;
+    padding-left: 5px;
+    color: #0b7aca;
+}
+
+.head p.bhead {
+    font-weight: bold;
+}
+
+.bhead span {
+    display: inline-block;
+    padding-bottom: 5px;
+    width: 150px;
+    height: 1px;
+    border-top: 1px solid #0b7aca;
+}
+
+.item ul li span {
+    font-weight: bold;
+}
+
+.counters-first .left,
+.counters-second .left {
+    float: left;
+    padding: 10px;
+}
+
+.counters-first .right,
+.counters-second .right {
+    float: right;
+    padding: 10px;
+}
+
+.counters-first .right ul,
+.counters-second .right ul {
+    float: left;
+}
+
+.counters-first .left ul,
+.counters-second .left ul {
+    float: left;
+}
+
+.copy span {
+    font-weight: bold;
+}
+
+.copy {
+    margin-top: 20px;
+    padding-left: 187px;
+    color: rgb(102, 99, 99);
+}
