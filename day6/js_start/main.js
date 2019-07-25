@@ -42,3 +42,32 @@ console.log(besin.meyve);
 var harf = besin.meyve[2][2];
 
 console.log(harf);
+
+var topla = 4 + 123;
+
+console.log(topla)
+
+
+var cikar = 4 - 123;
+
+console.log(cikar)
+
+
+var carp = 4 * 123;
+
+console.log(carp)
+
+
+var bol = 4 / 3;
+
+console.log(bol)
+
+var bol = 4 / 3;
+var tip = typeof(bol);
+bol = parseInt(bol);
+console.log(bol);
+console.log(tip);
+
+var boolean = true;
+
+console.log(boolean);
