@@ -21,6 +21,9 @@
   var myObj={
       id:1, // obje tanımlama
       post:'Lorem ipsum'
+
   }
+
+  var booleans=true;
   ```
   
