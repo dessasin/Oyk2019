@@ -1,52 +1,32 @@
-const veriler=[
-    {
-        id:1034,
-        title:"Alışveriş listesi",
-        description:"Bu bir alışveriş listesi",
-        todo:["süt al","soda al"]
-    }
-    , 
-    {
-        id:1024,
-        title: "Okunacaklar listesi",
-        description:"Bu bir  okunacaklar listesi",
-        todo:["kürk mantolu madonna","kaşağı"]
-    }
-    , {
-        id:5000,
-        title:"Oyun listesi",
-        description:"Bu bir Oyun listesi",
-        todo:["Dota2","Far lone sails"]
-    }
-    ,
-    {
-        id:1234,
-        title:"Gezilecekler listesi",
-        description:"Bu bir Gezilecekler listesi",
-        todo:["Ankara","İzmir"]
-    }
-]
+//axios ile json veri çekme
 
-let yeniVeri={
-    id:1344,
-    title:"denemler listesi",
-    description:"bu bir yeni liste",
-    todo:["yemek ye","su iç"]
-}
+/* axios.get("https://jsonplaceholder.typicode.com/todos").then(response => {
+  console.log(response.data);
+  let responseData = response.data;
+  responseData.forEach(item => {
+    console.log(item.title);
+  });
+});
+ */
+/* http durum kodları
 
-function pcallback(resolve,reject){
+100 >> Bilgilendirme
+200 >> Sucsess
+300 >> Size yönlendirme yapar
+400 >> Client side hataları döner örneğin "404"
+500 >> Server side sorunlara işaret eder
+*/
 
-    const error=false;
-    if (!error) {
-        let sortedArray=veriler.sort((firstEl,secEl) => {
-            return firstEl.id-secEl.id
+// bodyleri çektik
 
-        })
-        sortedArray.pop()
-        sortedArray.push()
-
-        for(var i=0; i<3;i++){
-            
-        }
-    }
-}
+axios.get("https://jsonplaceholder.typicode.com/posts").then(response => {
+  console.log(response.data);
+  let post = response.data;
+  post.forEach(item => {
+    console.log(post.forEach((item)=>{
+        console.log(item.body);
+        
+    }));
+    
+  });
+});
