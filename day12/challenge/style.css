@@ -1,0 +1,44 @@
+.todoContainer{
+    width: 700px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    border-radius: 12px;
+    box-shadow: 15px 18px 29px -7px rgba(0,0,0,0.25);
+    background-image: linear-gradient(to right bottom, #cadee0, #b4e1e5, #9be3eb, #7ce5f0, #51e7f6);
+   
+}
+h2{
+    padding-left: 10px;
+}
+.clear {
+    clear: both;
+}
+
+.sol{
+    float: left;
+    padding: 20px;
+    
+    
+}
+
+.sol li{
+    list-style: url("img/done.png");
+    padding: 3px;
+    
+
+}
+
+
+.sag{
+    float: right;
+    padding: 20px;
+    
+}
+
+.sag li{
+    list-style: url("img/cross.png");
+    padding: 3px;
+
+}

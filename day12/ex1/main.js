@@ -8,12 +8,19 @@ axios.get('https://jsonplaceholder.typicode.com/todos').then((response)=>{
         <div>
         <h1>${item.title}</h1>
         <h3>Item id: ${item.id} User id: ${item.userId}</h3>
-        <h5>${item.completed ? "Coplating State: "+"Yes":"Coplating State: "+"No"}</h5>
+        <h5>${item.completed ? "Complating State: "+"Yes":"Complating State: "+"No"}</h5>
         </div>
         `
     
         
     });
-    document.getElementById("postContainer").innerHTML=outPut;
+    let spinner=document.getElementById("spinner")
+
+    setTimeout(()=>{
+        spinner.style.display='none';
+        document.getElementById("postContainer").innerHTML=outPut;
+
+    },2000)
+    
 
 })
